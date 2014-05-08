@@ -17,7 +17,6 @@
 //= require_self
 //= require ./todo_ember
 
-// for more details see: http://emberjs.com/guides/application/
 TodoEmber = Ember.Application.create();
-
+TodoEmber.ApplicationAdapter = DS.FixtureAdapter.extend();
 //= require_tree .
